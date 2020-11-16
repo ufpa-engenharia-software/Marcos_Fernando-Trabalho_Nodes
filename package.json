@@ -1,0 +1,24 @@
+{
+  "name": "TrabalhoNodes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ufpa-engenharia-software/Marcos_Fernando-Trabalho_Nodes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ufpa-engenharia-software/Marcos_Fernando-Trabalho_Nodes/issues"
+  },
+  "homepage": "https://github.com/ufpa-engenharia-software/Marcos_Fernando-Trabalho_Nodes#readme",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.17.1"
+  }
+}
