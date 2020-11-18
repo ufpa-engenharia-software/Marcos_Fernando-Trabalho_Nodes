@@ -11,6 +11,24 @@ module.exports = app => {
             bairro: "Aguas Lindas",
             estado: "Pará",
             moradia: "casa"
+          },
+          {
+            id: 2,
+            logradouro: "Rua 3 de setembro",
+            numero: "41",
+            complemento: "Ao lado da igreja",
+            bairro: "Canutama",
+            estado: "Pará",
+            moradia: "vila"
+          },
+          {
+            id: 3,
+            logradouro: "Avenida Governador Magalhães Barata",
+            numero: "899",
+            complemento: "Doca",
+            bairro: "Nazaré",
+            estado: "Pará",
+            moradia: "Apt"
           }
         ]
       )
