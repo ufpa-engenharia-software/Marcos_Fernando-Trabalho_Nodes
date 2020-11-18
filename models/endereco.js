@@ -4,7 +4,13 @@ module.exports = app => {
       return callback(
         [
           {
-            cep: 0
+            id: 1,
+            logradouro: "Rua 25 de março",
+            numero: "232",
+            complemento: "Proximo a lanchonete Gosto Bom",
+            bairro: "Aguas Lindas",
+            estado: "Pará",
+            moradia: "casa"
           }
         ]
       )
