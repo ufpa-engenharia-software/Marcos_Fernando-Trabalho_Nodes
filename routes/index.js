@@ -2,7 +2,7 @@ const rp = require('request-promise')
 const req = require('request')
 module.exports = app => {
 	app.get('/', (req, res) => {
-		res.send('Bem Vindo ao Inferno')
+		res.send('Aceito Ajuda')
 	});
   
 	/*app.get('/cep/:cep', (req, res) => {
