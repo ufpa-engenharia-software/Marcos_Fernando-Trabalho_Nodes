@@ -10,7 +10,15 @@ module.exports = app => {
             email: "marcos@ufpa.com",
             login: "marcosfernando",
             senha: "engenheiro123"
-          }
+          },
+          {
+            id:2,
+            nome: "Marlon Fernando",
+            data_de_nascimento: "11/08/2006",
+            email: "marlon@gmail.com",
+            login: "marlon123",
+            senha: "fernando123"
+          },
         ]
       )
     }
