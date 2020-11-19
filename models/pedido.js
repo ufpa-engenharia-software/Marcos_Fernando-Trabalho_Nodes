@@ -6,24 +6,24 @@ module.exports = app => {
           {
             idUsuario: 1,
             idEndereco: 1,
-            produto:[
+            carrinho:[
               {
-                id:1, 
+                idProduto:1, 
                 preco: "17,20",
                 quantidade:1
               },
               {
-                id:3,
+                idProduto:3,
                 preco: "0,99",
                 quantidade:1
               },
               {
-                id:4,
+                idProduto:4,
                 preco: "0,99",
                 quantidade:1
               },
               {
-                id:5,
+                idProduto:5,
                 preco: "0,99",
                 quantidade:1
               }
@@ -36,22 +36,22 @@ module.exports = app => {
             idEndereco: 1,
             produto:[
               {
-                id:2, 
+                idProduto:2, 
                 preco: "11,50",
                 quantidade:3
               },
               {
-                id:3,
+                idProduto:3,
                 preco: "0,99",
                 quantidade:3
               },
               {
-                id:4,
+                idProduto:4,
                 preco: "0,99",
                 quantidade:3
               },
               {
-                id:5,
+                idProduto:5,
                 preco: "0,99",
                 quantidade:3
               }

@@ -4,7 +4,7 @@ module.exports = app => {
       return callback(
         [
           {
-            id: 1,
+            idEndereco: 1,
             logradouro: "Rua 25 de março",
             numero: "232",
             complemento: "Proximo a lanchonete Gosto Bom",
@@ -13,7 +13,7 @@ module.exports = app => {
             moradia: "casa"
           },
           {
-            id: 2,
+            idEndereco: 2,
             logradouro: "Rua 3 de setembro",
             numero: "41",
             complemento: "Ao lado da igreja",
@@ -22,7 +22,7 @@ module.exports = app => {
             moradia: "vila"
           },
           {
-            id: 3,
+            idEndereco: 3,
             logradouro: "Avenida Governador Magalhães Barata",
             numero: "899",
             complemento: "Doca",
