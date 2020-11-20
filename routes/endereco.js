@@ -16,18 +16,8 @@ module.exports = app => {
             });
 	});
  
-  const Endereco = app.models.endereco;
-  app.get("/endereco", (req, res) => {
-    res.status(200).send('OK')
-    /*Endereco.findAll(
-      {}, (retorno) => 
-          {
-            res.json({endereco:retorno})
-          }
-    );*/
-  });
-
-  var jsonParser = bodyParser.json()
+    const Endereco = app.models.endereco;
+    var jsonParser = bodyParser.json()
 	app.post("/endereco", jsonParser, function(req, res) {
 		
            var idEndereco = req.body.idEndereco
@@ -38,17 +28,7 @@ module.exports = app => {
            var estado = req.body.estado
            var moradia = req.body.moradia;
 
-			res.json(
-				{
-					 idEnderecoRecebido: idEndereco,
-           logradouroRecebido: logradouro,
-           numeroRecebido: numero,
-           complementoRecebido: complemento,
-           bairroRecebido: bairro,
-           estadoRecebido: estado,
-           moradiaRecebido: moradia,
-				}
-			)
+		   res.status(200).send('OK');		
 	});
 
 };

@@ -5,11 +5,12 @@ module.exports = app => {
         [
           {
             nome: "Caderno",
-            idproduto: 1
+            idproduto: 1,
           },
           {
             nome: "Caderno",
-            idproduto: 2
+            idproduto: 2,
+            nomeproduto: "xxx"
           },
           {
             nome: "Caneta",

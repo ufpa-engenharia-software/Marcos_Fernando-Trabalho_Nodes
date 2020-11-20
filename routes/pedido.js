@@ -10,19 +10,13 @@ module.exports = app => {
     );
   });
 
-  var jsonParser = bodyParser.json()
-	app.post("/usuario", jsonParser, function(req, res) {
+    var jsonParser = bodyParser.json()
+	app.post("/pedido", jsonParser, function(req, res) {
 		
-      var idUsuario = req.body.idUsuario
+      		var idUsuario = req.body.idUsuario
 			var idEndereco = req.body.idEndereco
  			var carrinho = req.body.carrinho;
 
-			res.json(
-				{
-					idUsuarioRecebido: idUsuario,
-          idEnderecoRecebido: idEndereco,
-          carrinhoRecebido: carrinho,
-				}
-			)
+			res.status(200).send('OK');
 	});
 };
